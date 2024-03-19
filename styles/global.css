@@ -2,4 +2,10 @@
     --primary-color: #996830;
     --primary-text-color: #2C2C2C;
     --secondary-text-color: #444444;
+
+    --layout-width: 1440px;
+}
+
+* {
+    box-sizing: border-box;
 }
