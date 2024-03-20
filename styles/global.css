@@ -9,3 +9,13 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    font-family: Outfit;
+}
+
+.container {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 30px 112px;
+}
