@@ -51,6 +51,7 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    padding-left: 0;
 }
 
 .footer__social_item {
@@ -59,6 +60,7 @@
     border-radius: 50%;
     border: 1px solid #E6D8CC;
     position: relative;
+    list-style: none;
 }
 
 .footer__social_item img {
