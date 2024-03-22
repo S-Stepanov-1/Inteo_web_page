@@ -20,7 +20,7 @@ body {
 .container {
     max-width: var(--layout-width);
     margin: 0 auto;
-    padding: 20px 112px;
+    padding: 0 112px;
 }
 
 @media (max-width: 1200px) {
