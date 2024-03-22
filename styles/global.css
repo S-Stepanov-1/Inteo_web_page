@@ -1,6 +1,6 @@
 :root {
     --primary-color: #996830;
-    --primary-color-hover: #7b501e;
+    --primary-color-hover: #bf915d;
     --primary-text-color: #2C2C2C;
     --secondary-text-color: #444444;
     --color-link-hover: #AFB2BF;
@@ -14,10 +14,23 @@
 
 body {
     font-family: Outfit;
+    color: var(--primary-text-color);
 }
 
 .container {
     max-width: var(--layout-width);
     margin: 0 auto;
-    padding: 30px 112px;
+    padding: 0 112px;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 20px 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 20px 20px;
+    }
 }

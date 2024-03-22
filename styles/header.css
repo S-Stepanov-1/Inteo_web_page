@@ -2,12 +2,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .header__logo {
     margin-top: 4px;
+    height: 32px;
     width: 88px;
-    height: 22px;
 }
 
 .header__nav {
@@ -51,15 +53,12 @@
 
 .header__button:hover {
     background-color: var(--primary-color-hover);
+    cursor: pointer;
 }
 
 @media (max-width: 1200px) {
     .menu__item a {
         color: var(--primary-text-color);
-    }
-
-    .header__wrapper {
-        padding: 30px 40px;
     }
 }
 
