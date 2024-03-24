@@ -1,0 +1,112 @@
+/* Image & label */
+.hero__image {
+    position: relative;
+    font-size: 0;
+    line-height: 0;
+}
+
+.hero__image>img {
+    height: 640px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero__label {
+    position: absolute;
+    top: -60px;
+    left: calc(50% - var(--layout-width) / 2);
+}
+
+.hero__image img {
+    transition: all 0.7s;
+}
+
+.hero__label:hover img {
+    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 1200px) {
+    .hero__label {
+        left: calc(50% - 60px);
+    }
+}
+
+/* Awards */
+.hero__awards {
+    background-color: var(--primary-text-color);
+}
+
+.hero__awards_wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.awards_title {
+    color: #FFFFFF;
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    transform: rotate(-90deg);
+}
+
+.awards_horizontal_line {
+    width: 64px;
+    height: 0px;
+    border-top: 1px solid;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.award__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* In figma original gap is 64px, but with such gap the whole "picture" doesn't look right */
+    gap: 56px;
+    list-style: none;
+    padding: 0;
+}
+
+.award__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.award__item_name {
+    color: var(--award-name-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media (max-width: 1450px) {
+    .award__item {
+        width: calc(50% - 28px);
+    }
+
+    .award__items {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .award__items {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .award__item {
+        width: 100%;
+    }
+}

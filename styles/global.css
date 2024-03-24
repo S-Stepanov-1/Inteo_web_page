@@ -4,6 +4,7 @@
     --primary-text-color: #2C2C2C;
     --secondary-text-color: #444444;
     --color-link-hover: #AFB2BF;
+    --award-name-color: #D9D9D6;
 
     --layout-width: 1440px;
 }
@@ -26,12 +27,12 @@ body {
 
 @media (max-width: 1200px) {
     .container {
-        padding: 20px 40px;
+        padding: 0 40px;
     }
 }
 
 @media (max-width: 768px) {
     .container {
-        padding: 20px 20px;
+        padding: 0 20px;
     }
 }
