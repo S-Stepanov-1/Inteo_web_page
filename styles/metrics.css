@@ -55,5 +55,11 @@ ul {
 
     .metrics {
         flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .metric__item_number {
+        font-size: 48px;
+        line-height: 60px;
     }
 }
