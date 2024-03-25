@@ -23,6 +23,37 @@ body {
     padding: 0 112px;
 }
 
+/* Section */
+.horizontal-line {
+    width: 64px;
+    height: 0px;
+    border-top: 1px solid var(--primary-color);
+}
+
+.section-title {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+
+.section-title_title {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.section__text-description {
+    color: var(--secondary-text-color);
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    margin: 0;
+}
+
+/* Media */
+
 @media (max-width: 1200px) {
     .container {
         padding: 20px 40px;
