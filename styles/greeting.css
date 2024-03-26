@@ -1,0 +1,28 @@
+.greeting__h1 {
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 96px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.greeting__text {
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .greeting__h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .greeting__text {
+        font-size: 18px;
+    }
+}
