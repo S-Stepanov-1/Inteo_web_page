@@ -30,21 +30,31 @@ body {
     border-top: 1px solid var(--primary-color);
 }
 
-.section-title {
+.section-name__wrapper {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 16px;
 }
 
-.section-title_title {
+.section-name {
     color: var(--primary-color);
     font-size: 14px;
     font-weight: 600;
     line-height: 20px;
+    margin: 0;
 }
 
-.section__text-description {
+.section-title {
+    color: var(--primary-text-color);
+    font-family: Playfair Display;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 72px;
+    margin: 24px 0;
+}
+
+.section-description {
     color: var(--secondary-text-color);
     font-size: 18px;
     font-weight: 300;
