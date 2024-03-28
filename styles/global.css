@@ -25,6 +25,29 @@ body {
     padding: 0 112px;
 }
 
+/* Buttons */
+.contact-us-button {
+    font-family: Outfit;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    width: 138px;
+    height: 44px;
+    padding: 14px 20px;
+    gap: 4px;
+}
+
+.contact-us-button:hover {
+    background-color: var(--primary-color-hover);
+    cursor: pointer;
+}
+
+
 /* Section */
 .section-wrapper {
     padding-top: 128px;
