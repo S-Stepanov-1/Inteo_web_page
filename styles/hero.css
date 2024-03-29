@@ -13,8 +13,8 @@
 
 .hero__button {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 0;
+    transform: translate(0, -50%);
 }
 
 .hero__image img {
