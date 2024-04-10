@@ -19,6 +19,10 @@ body {
     color: var(--primary-text-color);
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     max-width: var(--layout-width);
     margin: 0 auto;

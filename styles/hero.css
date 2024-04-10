@@ -69,7 +69,6 @@
 
 .award__items {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     /* In figma original gap is 64px, but with such gap the whole "picture" doesn't look right */
@@ -99,6 +98,12 @@
 
     .award__items {
         gap: 40px;
+    }
+}
+
+@media (max-width:1200px) {
+    .award__items {
+        flex-wrap: wrap;
     }
 }
 
